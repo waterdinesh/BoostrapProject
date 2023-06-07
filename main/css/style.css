@@ -1,0 +1,688 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a.nav-link{
+    margin: 15px;
+    font-size: 16px;
+}
+ .nav-link:hover{
+    color: #28ABE3 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.90);
+}
+
+/*-----------------------two----------------------------------------------------------------------- */
+
+
+.carousel-control-prev-icon  {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(/photo/home/left-arrow-alt-regular-24.png);
+    background-color: #28ABE3;
+   
+}
+.carousel-control-next-icon {
+    background-image: url(/photo/home/right-arrow-alt-regular-24.png);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #28ABE3;
+}
+.two img{
+    height: 120vh;
+}
+.twoh h5{
+    color: #fff;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    
+}
+.twoh{
+    width: 700px;
+    /* margin-left: 19%; */
+}
+.twoh p{
+    padding-top: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+    letter-spacing: 1px;
+    line-height: 1.65;
+
+   font-family: "source sans pro sans-serif";
+     
+}
+.twob{
+    height: 50px;
+    width: 200px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.twob:hover{
+    color: #fff;
+}
+/* ------------------------------------------------------------------------media screen */
+@media screen and (min-width:320px) and (max-width:480px) {
+    .twoh h5{
+        color: #fff;
+        font-size: 20px !important;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        
+        
+    }
+    /* .twoh{
+        width: 100% !important;
+        height: 100%;
+       margin-left: -30px !important;
+      display: none;
+    } */
+    .two img{
+        height: 100%;
+        width: 100%;
+        /* height: 50vh; */
+    }
+    .two {
+        /* height: 100%; */
+        width: 100%;
+        height: 50vh;   
+    }
+    .carousel-caption{
+        text-align: center;
+        width: 100% !important;
+        margin-left: 0px;
+    
+    }
+    .carousel-item{
+        width: 100% !important;
+    }
+    .carousel-inner{
+        width: 100%;
+        text-align: center;
+    }
+    .carousel-control-prev{
+        /* width: 100%; */
+        /* height: 100%; */
+        display: none;
+    }
+    .carousel-control-prev-icon{
+        display: none !important;
+    }
+    .carousel-control-next-icon {
+      
+        display: none !important;
+    }
+   
+    .ss{
+        margin-left: 0!important;
+        margin-top: 0!important;
+    }
+    .twoh p{
+        width: 300px;
+        margin-top: -40px;
+        padding-top: -10px;
+        font-size: 13px;
+        letter-spacing: 0px;
+        margin-left: -30px !important;
+
+    }
+    .twoh h5{
+        width: 250px;
+        
+        /* margin: 0 !important; */
+        margin-top: 30px;
+        padding: 0px;
+        font-size: 18px!important;
+        letter-spacing: 0px!important;
+        margin-left: 0px !important;
+        text-align: center;
+        line-height: 1.2 !important;
+         
+    }
+    .twob{
+        height: 40px;
+        width: 150px;
+        margin-top: 0;
+        margin-left: 23%;
+     
+    }
+  
+    
+    
+    
+}
+/*-----------------------two----------------------------------------------------------------------- */
+.page2{
+    height: 140vh;
+    /* background-color: blue; */
+    padding-top: 80px;
+}
+.fun{
+    width: 700px;
+}
+.fun p{
+    font-family: "Source Sans Pro", sans-serif;
+    color: #848484;
+    font-size: 16px;
+    line-height: 1.65;
+    position: relative;
+}
+.fun p::after{
+content: "";
+width: 100px;
+height: 2px;
+background-color:#848484;
+position: absolute;
+left: 40%;
+top:80px;
+}
+.fun h2{
+    font-weight: 600;
+    font-size: 35px;
+    color: #232323;
+    font-family: "Catamaran", sans-serif;
+}
+.all{
+    margin:90px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-auto-rows: 350px;
+    grid-gap:20px;
+    /* border: 2px solid black; */
+}
+.we{
+    border: 1px solid #eee;
+    /* background-color: yellow; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.ball{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #28ABE3;
+    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ball span{
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+.one{
+    
+    grid-row: span 2;
+}
+.three{
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+}
+.three h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+   
+}
+.three:hover{
+    background-color: #eee;
+    /* box-shadow: 0px 0px 5px #fff,0px 0px 25px; */
+    box-shadow: 0 5px 65px 0 rgb(0 0 0 / 15%);
+}
+.three:hover .ball{
+    background-color: #eee;
+    /* box-shadow: 0px 0px 5px #fff,0px 0px 5px; */
+    box-shadow: 0 5px 65px 0 rgb(0 0 0 / 15%);
+}
+.three:hover .ball span{
+   color: #28ABE3;
+}
+/* ------------------------------------------------------------------------media screen */
+@media screen and (min-width:320px) and (max-width:480px) {
+    
+    .fun{
+        width: 100%;
+    }
+    .fun p::after{
+        
+        left: 30%;
+        top:130px;
+        }
+        .fun h2{
+            font-size: 25px;
+           
+        }
+        .one img{
+           
+          display: none;
+        }
+        .all{
+            display: flex;
+            flex-direction: column; 
+        }
+        .ball{
+            margin-left: 30%;
+        }
+       
+}
+/*-----------------------three----------------------------------------------------------------------- */
+.page3{
+    
+    height: 100vh;
+    /* background-color:rgb(245, 233, 222); */
+    padding-top: 80px;
+}
+.sun{
+    width: 700px;
+}
+.sun p{
+    font-family: "Source Sans Pro", sans-serif;
+    color: #848484;
+    font-size: 16px;
+    line-height: 1.65;
+    position: relative;
+}
+.sun p::after{
+content: "";
+width: 100px;
+height: 2px;
+background-color:#848484;
+position: absolute;
+left: 40%;
+top:80px;
+}
+.sun h2{
+    font-weight: 600;
+    font-size: 35px;
+    color: #232323;
+    font-family: "Catamaran", sans-serif;
+}
+.threeb{
+    height: 50px;
+    width: 200px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.page3left{
+    height: 500px;
+}
+.pagethreep{
+    font-size: 16px;
+    color: #777;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.pagethreespan{
+    color: #777;
+}
+.threeb:hover{
+    color: #fff;
+}
+/* ------------------------------------------------------------------------media screen */
+@media screen and (min-width:320px) and (max-width:480px) {
+    
+    .sun{
+        width: 100%;
+    }
+    .sun p::after{
+        
+        left: 30%;
+        top:130px;
+        }
+        .sun h2{
+            font-size: 25px;
+           
+        }
+        .page3{
+            margin-top: 110vh;
+            
+            /* background-color:rgb(245, 233, 222); */
+            padding-top: 80px;
+            width: 100%;
+            height: 100%;
+        }
+        .page3left{
+            height: 100%;
+            width: 100%;
+        }
+        .page3right{
+            width: 100%;
+            height: 100%;
+        }
+        .threeb{
+            height: 40px;
+            width: 150px;
+            margin-top: -15px;
+        }
+        .pagethreep{
+            margin-top: -35px;
+            margin-left: 30px;
+        }
+        
+       
+       
+}
+/*-----------------------four----------------------------------------------------------------------- */
+.fourh{
+    width: 100%;
+    height: 40vh;
+    color: #fff;
+    /* margin-left: 19%; */
+    background-image: url(/photo/home/call-to-action-bg-2.jpg);
+    background-size: cover;
+    
+}
+.fourh p{
+    width: 700px;
+}
+.fourh h5{
+    padding-top: 80px;
+    font-family: "Catamaran", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+.jockb{
+    height: 50px;
+    width: 200px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.jockb:hover{
+    color: #fff;
+}
+/* ------------------------------------------------------------------------media screen */
+@media screen and (min-width:320px) and (max-width:480px) {
+    .fourh{
+        width: 100%;
+        height: 100%;   
+    }
+    .fourh p{
+        width: 100%;
+        font-size: 14px;
+    }
+    .fourh h5{
+        padding-top: 40px;
+        font-size: 25px;
+    }
+    .jockb{
+        height: 40px;
+        width: 150px;
+        margin-top: -15px;
+        margin-left: -105px;
+    }
+       
+}
+/*-----------------------four----------------------------------------------------------------------- */
+.fiveh{
+    height: 50vh;
+    padding-top: 50px;
+}
+.fiveh p{
+    width: 700px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.fivehs span{
+    font-size: 40px;
+
+    color: #28ABE3;
+}
+.fivehs h5{
+    font-size: 16px;
+    color: #777;
+}
+/*-----------------------mediascreen----------------------------------------------------------------------- */
+@media screen and (min-width:320px) and (max-width:480px) {
+    .fiveh p{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .fiveh{
+        /* background-color: #28ABE3; */
+        height: 50vh;
+        padding-top: 20px;
+        margin-top: 30px;
+    }
+    .fivehs {
+       width: 100%;
+       height: 100%;
+    }
+    .bsp{
+        border: none !important;
+    }
+   }
+/*-----------------------four----------------------------------------------------------------------- */
+.page6{
+    background-image: linear-gradient(#28ABE3 70%,#fff 30%);
+    width: 100%;
+    height: 65vh;
+}
+.page6h span{
+   font-size: 80px;
+   color: #fff;
+}
+.page6h p{
+    font-size: 16px;
+    color: #fff;
+    width: 900px;
+ }
+ .page6h h3{
+    font-size: 30px;
+    width: 900px;
+ }
+ .page6h img{
+    margin-top: 25px;
+ }
+   /*-----------------------mediascreen----------------------------------------------------------------------- */
+@media screen and (min-width:320px) and (max-width:480px) {
+    .page6{
+        background-image: linear-gradient(#28ABE3 78%,rgb(247, 244, 244) 22%);
+        width: 100%;
+        height: 100%;
+        margin-top: 70vh;
+        
+    }
+    .page6h span{
+        font-size: 40px;
+        color: #fff;
+        padding: 0;
+        margin: 0;
+     }
+     .page6h p{
+        font-size: 13px;
+        color: #fff;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+     }
+     .page6h h3{
+        font-size: 20px;
+        width: 100%;
+     }
+
+ 
+}
+ /*-----------------------seven----------------------------------------------------------------------- */
+ .page7{
+    height: 110vh;
+    background-color: rgb(223, 218, 213);
+    padding-top: 30px;
+}
+.run{
+    width: 700px;
+    margin-bottom: 20px;
+}
+.run h2{
+    margin-bottom: 20px;
+    position: relative;
+}
+.run h2::after{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color:#848484;
+    position: absolute;
+    left: 43%;
+    top:60px;
+    }
+.run p{
+    margin-top: 50px;
+    color: #848484;
+}
+.sevenb{
+    height: 50px;
+    width: 130px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.card-title{
+    font-family: "Catamaran", sans-serif;
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+.card-text{
+    color: #848484;
+}
+.card{
+    height: 550px;
+}
+/*-----------------------mediascreen----------------------------------------------------------------------- */
+@media screen and (min-width:320px) and (max-width:480px) {
+    .page7{
+        width: 100%;
+        height: 100%;
+    }
+    .run h2::after{
+        content: "";
+        width: 100px;
+        height: 2px;
+        background-color:#848484;
+        position: absolute;
+        left: 30%;
+        top:60px;
+        }
+        .run{
+            width: 100%;
+            
+        }
+    .page7down{
+        width: 100%;
+    }
+    .card{
+        height: 480px;
+    }
+  
+    .sevenb{
+        height: 40px;
+        width: 150px;
+        padding: 0px;
+       
+    }
+    
+}
+/*-----------------------foot----------------------------------------------------------------------- */
+.foot{
+    background-image: linear-gradient(#232323 75%,#1b1b1b 25%);
+    height: 47vh;
+}
+.footp{
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    font-size: 13px;
+    line-height: 30px;
+    color: #bdbdbd;
+    font-weight: 300;
+    letter-spacing: 1px;
+  
+}
+.footp a{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 30px;
+    color: #bdbdbd;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.footp a:hover {
+    color: #28ABE3;
+}
+.footbox{
+    margin-top: 80px;
+}
+.footbox h6{
+    margin-bottom: 20px;
+    color: #bdbdbd;
+}
+.footdown{
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footdown h6{
+    font-size: 12px;
+    line-height: 1;
+    color: #888888;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    
+}
+.footdown p{
+    font-size: 11px;
+    line-height: 15px;
+    color: #888888;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    
+}
+/*-----------------------foot-mediascreen----------------------------------------------------------------------- */
+@media screen and (min-width:320px) and (max-width:480px) {
+    .foot {
+        height:200% !important;
+        /* display: flex;
+        flex-direction: row; */
+        background-image: linear-gradient(#232323 90%,#1b1b1b 10%);
+    }
+    .footbox p{
+        height: 100% !important;
+        width:200px !important ;
+        font-size: 12px;
+        /* margin-top: 20px !important; */
+    }
+    .footbox{
+        margin-top: 20px !important;
+    }
+    .footp a{
+        font-size: 10px;
+       
+    }
+    
+}
